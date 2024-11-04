@@ -38,23 +38,23 @@ const Footer = () => {
               Espresso Escape
             </p>
             <a
-              href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
+              href="https://github.com/Hero-with-code"
               target="_blank"
               className="inline-block bg-black py-2 px-4 mt-5 text-sm rounded-full">
               Visit Our My WebSite Here! 
             </a>
             {/* social links */}
             <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
+                  <a href="https://github.com/Hero-with-code">
                     <FaInstagram className="text-3xl hover:text-primary duration-300" />
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/Hero-with-code">
                     <FaFacebook className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/Hero-with-code">
                     <FaLinkedin className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/Hero-with-code">
                     <FaWhatsappSquare className="text-3xl hover:text-primary duration-200" />
                   </a>
                 </div>
