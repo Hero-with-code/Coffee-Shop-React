@@ -34,6 +34,70 @@ const ServicesData = [
       "A latte is made with espresso and steamed milk, typically topped with a small amount of milk foam for creaminess.",
     aosDelay: "700",
   },
+  {
+    id: 5,
+    img: Img2,
+    name: "Espresso",
+    description:
+      "Espresso is a concentrated coffee brewed by forcing hot water through finely-ground beans, resulting in a rich, bold flavor.",
+    aosDelay: "100",
+  },
+  {
+    id: 6,
+    img: Img2,
+    name: "Americano",
+    description:
+      "An Americano is made by diluting espresso with hot water, resulting in a lighter coffee flavor while maintaining the espresso's richness.",
+    aosDelay: "300",
+  },
+  {
+    id: 7,
+    img: Img2,
+    name: "Cappuccino",
+    description:
+      "A cappuccino consists of equal parts espresso, steamed milk, and milk foam, creating a creamy texture and rich coffee flavor.",
+    aosDelay: "500",
+  },
+  {
+    id: 8,
+    img: Img2,
+    name: "Latte",
+    description:
+      "A latte is made with espresso and steamed milk, typically topped with a small amount of milk foam for creaminess.",
+    aosDelay: "700",
+  },
+  {
+    id: 9,
+    img: Img2,
+    name: "Espresso",
+    description:
+      "Espresso is a concentrated coffee brewed by forcing hot water through finely-ground beans, resulting in a rich, bold flavor.",
+    aosDelay: "100",
+  },
+  {
+    id: 10,
+    img: Img2,
+    name: "Americano",
+    description:
+      "An Americano is made by diluting espresso with hot water, resulting in a lighter coffee flavor while maintaining the espresso's richness.",
+    aosDelay: "300",
+  },
+  {
+    id: 11,
+    img: Img2,
+    name: "Cappuccino",
+    description:
+      "A cappuccino consists of equal parts espresso, steamed milk, and milk foam, creating a creamy texture and rich coffee flavor.",
+    aosDelay: "500",
+  },
+  {
+    id: 12,
+    img: Img2,
+    name: "Latte",
+    description:
+      "A latte is made with espresso and steamed milk, typically topped with a small amount of milk foam for creaminess.",
+    aosDelay: "700",
+  },
 ];
 const Services = () => {
   return (
@@ -49,7 +113,7 @@ const Services = () => {
           </div>
 
           {/* Services Card section  */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-14 md:gap-5 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-14 md:gap-12 place-items-center">
             {ServicesData.map((service) => (
               <div
                 data-aos="fade-up"
